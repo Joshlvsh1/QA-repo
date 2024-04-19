@@ -33,7 +33,7 @@ describe("Assertions demo", ()=>{
        cy.get("input[placeholder='Username']").type("Admin") //Going to put a value into the box 
        cy.get("input[placeholder='Username']").should('have.value','Admin') //check the right value been entered
       
-       //testing
+       //testing 2
 
 
 
